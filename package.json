@@ -1,4 +1,28 @@
-"scripts": {
-  "start": "node server.js"
-},
-"main": "server.js"
+{
+  "name": "nodeTest",
+  "version": "0.0.1",
+  "description": "Node.js sample app for OpenShift 3",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.13.4",
+    "mongodb": "^2.1.16"
+  },
+  "engine": {
+    "node": "*",
+    "npm": "*"
+  },
+  "scripts": {
+    "start": "node server.js"
+    
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/nandihno/nodeTest.git"
+  },
+  "author": "Fernando De Leon <fernando.deleon@gmail.com>",
+  "license": "CC-BY-1.0",
+  "bugs": {
+    "url": "http://github.com/nandihno/nodeTest/issues"
+  },
+  "homepage": "http://github.com/nandihno/nodeTest"
+}
